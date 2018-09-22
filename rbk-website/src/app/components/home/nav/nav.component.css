@@ -1,0 +1,83 @@
+#navbar {
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  height: 0;
+  z-index: 2;
+  margin: 0;
+
+}
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-block {
+  height: 40px;
+  width: 150px;
+  margin: 0 5px;
+  border: #fff 1px solid;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  background: url(../../../../assets/RBK/Statistic.jpg);
+  background-size: cover;
+  filter: grayscale(70) opacity(.6);
+  border-bottom-left-radius: 15px;
+  list-style: none;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.nav-block:hover {
+  transition-duration: .3s;
+  transition-timing-function: ease;
+  filter: grayscale(0);
+  height: 25px;
+  padding-top: 60px;
+}
+a {
+  filter: opacity(100);
+  top: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .nav-block {
+    height: 60px;
+    width: 60px;
+    margin: 0 0px;
+    border: #fff .07px solid;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    background: url(../../../../assets/RBK/Statistic.jpg);
+    background-size: cover;
+    filter: grayscale(70) opacity(.6);
+    border-bottom-left-radius: 0px;
+    list-style: none;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .blocks {
+    justify-content: start;
+  }
+  a {
+    display: none;
+  }
+  .nav-block:hover {
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    filter: grayscale(0);
+    height: 25px;
+    padding-top: 60px;
+    width: 150px !important;
+  }
+  .nav-block:hover a {
+    display: block;
+    transition-duration: 1s;
+  }
+}
