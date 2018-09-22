@@ -9,6 +9,7 @@ import { HelpersModule } from './modules/helpers/helpers.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { MainComponent } from './components/home/main/main.component';
+import { FooterComponent } from './components/home/footer/footer.component';
 
 
 
@@ -16,7 +17,8 @@ import { MainComponent } from './components/home/main/main.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

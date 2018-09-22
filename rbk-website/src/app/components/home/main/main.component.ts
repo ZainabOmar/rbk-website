@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-main',
-  templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+	selector: 'app-main',
+	templateUrl: './main.component.html',
+	styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+	year = 2018;
 
-  ngOnInit() {
-  }
+	constructor() { }
+
+	ngOnInit() {
+		const time = new Date;
+		this.year = time.getFullYear();
+	}
 
 }

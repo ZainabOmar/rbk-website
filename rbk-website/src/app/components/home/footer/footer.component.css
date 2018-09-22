@@ -1,0 +1,36 @@
+footer {
+ background-color: #192325;
+}
+h5{
+  color:gray;
+  font-size:12px;
+  font-family: sans-serif;
+  text-align: center;
+}
+a {
+  color :#b4b4b4;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.vertical-menu i {
+  display: block; 
+  padding: 4px;
+  text-align: right;
+  margin-right: 3%;
+  color: #b41a83;
+  font-size: 15px;
+}
+i.fa {
+  padding: 10px;
+  color: #b4b4b4;
+}
+i.fa:hover{
+  color: white;
+}
+a:hover { 
+  color: white;
+}
+#media{
+  text-align: left;
+  margin-left: 2%;
+}
