@@ -1,0 +1,41 @@
+header {
+  margin: 0;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+.header-text {
+  color: white;
+  text-align: center;
+  margin-left: 150px;
+  width:70%;
+}
+.title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.image {
+  height: 60px;
+}
+.bg1 {
+  background: url(../../../../../assets/giphy.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-image {
+  max-width: 200px;
+}
+header {
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .display-1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}

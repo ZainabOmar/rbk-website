@@ -12,6 +12,7 @@ import { MainComponent } from './components/home/main/main.component';
 import { FooterComponent } from './components/home/footer/footer.component';
 import { NavComponent } from './components/home/nav/nav.component';
 import { LayoutComponent } from './components/home/layout/layout.component';
+import { HeaderComponent } from './components/home/layout/header/header.component';
 
 
 
@@ -22,7 +23,8 @@ import { LayoutComponent } from './components/home/layout/layout.component';
     MainComponent,
     FooterComponent,
     NavComponent,
-    LayoutComponent
+    LayoutComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

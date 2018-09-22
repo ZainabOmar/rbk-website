@@ -1,0 +1,16 @@
+<header>
+ <div class="hero d-flex justify-content-center align-items-center" [ngClass]="bg">
+   <div class="text-center">
+     <img src="{{ header.img }}" alt="" class="image"/>
+     <br><br>
+     <br>
+     <h3 class="header-text">
+       {{ header.text }}
+     </h3>
+     <br><br>
+     <button routerLink="/apply" class="btn btn-primary animated infinite pulse" *ngIf="btn">Apply
+       <i class="fa fa-arrow-right"></i>
+     </button>
+   </div>
+ </div>
+</header>
